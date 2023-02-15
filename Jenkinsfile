@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'python --version'
 		sh 'python -h'
+		echo 'Hello MF'
             }
         }
     }
